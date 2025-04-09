@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(255, 0, 212);
+}
+
+h2{
+background-color: #002fff;
+color: rgb(255, 255, 255);
+padding: 10px;
+border: 20px;
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid a img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.grid a img:hover {
+    transform: scale(1.05);
+}
