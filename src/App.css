@@ -13,7 +13,9 @@ border: 20px;
 
 .grid {
     display: grid;
-    gap: 20px;
+    grid-template-columns: repeat(3, 180px);
+    gap: 5px;
+    padding: 5px;
     justify-content: center;
     margin-top: 20px;
 }

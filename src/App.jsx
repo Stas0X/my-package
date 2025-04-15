@@ -2,17 +2,14 @@
 import './App.css'
 
 function App() {
- 
-
-
- 
+      
   return (
     <>
     <link rel="icon" href="https://www.flaticon.com/free-icon/cinema_8363053" />
     <title>SSFilms</title>
     <body>
       <h2 class="h0">Wyszukiwanie filmów</h2>
-    <div class="grid">
+      <div class="grid">
       
       <a href="https://www.youtube.com/watch?v=jan5CFWs9ic" target="_blank">
       <img src="image/1.jpg"></img></a>
@@ -34,6 +31,8 @@ function App() {
       <img src="image/9.jpg"></img></a>
 
     </div>
+    <img class="imgS" src="image/IconS.png" height="80px" width="80px"></img>
+
    </body>
     </>
   )
